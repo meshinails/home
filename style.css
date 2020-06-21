@@ -131,7 +131,8 @@ body {
     }
 
   .gallery img {
-    margin: 0 auto;
-    width: 278px;
+    position: relative;
+    left: 40px;
+    width: 350px;
   }
 }
