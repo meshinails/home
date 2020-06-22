@@ -1,4 +1,4 @@
-body { 
+body {
     margin: 0;
     background-color:#F5F5F5;
   }
@@ -106,7 +106,8 @@ body {
       
   #footer-cotent-whatsapp {
    margin: 15px;
-    
+   position: relative;
+    top: 10px;
   }
       
   #footer-cotent-cellphone {
