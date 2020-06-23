@@ -7,10 +7,10 @@ body {
 body a {
   -webkit-tap-highlight-color: transparent;
   }
-  
+
 #header {
   height: 200px;
-  background-color:background-color  #FAACA8;
+  background-color: #FAACA8;
   background-image: linear-gradient(19deg,  #FAACA8 0%, #DDD6F3 100%);
   border-radius: 0 0 100% 100% / 35% ;
 
@@ -55,13 +55,20 @@ font-size: 23px;
 text-align: center;
 font-weight: 600;
 margin-top: 60px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 
 }
 
 .colors {
 background-image: linear-gradient(19deg,  #FAACA8 0%, #DDD6F3 100%);
+border-radius: 4px;
 
 }
+.colors-2 {
+  background-image: linear-gradient(19deg,  #fce517 0%, #fffff9 100%);
+  border-radius: 4px;
+  
+  }
 
 .work {
   text-align: center;
