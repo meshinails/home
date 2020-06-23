@@ -1,7 +1,10 @@
 body {
   margin: 0;
   background-color:#F5F5F5;
-  outline: none; 
+  
+}
+body a {
+-webkit-tap-highlight-color: transparent;
 }
 #header {
   height: 200px;
@@ -124,7 +127,7 @@ margin-bottom: 140px;
  margin: 15px;
  float: right;
  float: bottom; 
- outline: none;
+ 
   
 }
     
@@ -137,11 +140,7 @@ margin-bottom: 140px;
 }
 
 @media screen and (max-width: 600px) {
-  
-  body{
-    outline: none; 
-  }
-  
+
   #header-content {
   font-size:30px;
   color:white;
