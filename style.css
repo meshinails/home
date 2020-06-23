@@ -138,6 +138,9 @@ margin-bottom: 140px;
 
 @media screen and (max-width: 600px) {
   
+  body{
+    outline: none; 
+  }
   
   #header-content {
   font-size:30px;
