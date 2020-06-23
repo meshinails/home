@@ -3,9 +3,11 @@ body {
   background-color:#F5F5F5;
   
 }
+
 body a {
--webkit-tap-highlight-color: transparent;
-}
+  -webkit-tap-highlight-color: transparent;
+  }
+  
 #header {
   height: 200px;
   background-color:background-color  #FAACA8;
@@ -96,6 +98,10 @@ text-align: center;
 margin-top: 30px;
 text-align: center;
 font-size: 23px;
+background-image: linear-gradient(to left, violet, rgb(230, 143, 62), rgb(208, 19, 255), rgb(230, 143, 62), rgb(208, 19, 255), rgb(208, 19, 255));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
 }
 
 .instegram-button {
@@ -103,7 +109,7 @@ width: 200px;
 height: 200px;
 display: flex;
 margin: auto;
-margin-bottom: 140px;
+margin-bottom: 110px;
 
 
 }
@@ -127,7 +133,7 @@ margin-bottom: 140px;
  margin: 15px;
  float: right;
  float: bottom; 
- 
+ outline: none;
   
 }
     
@@ -140,6 +146,10 @@ margin-bottom: 140px;
 }
 
 @media screen and (max-width: 600px) {
+  
+  body{
+    outline: none; 
+  }
 
   #header-content {
   font-size:30px;
@@ -158,7 +168,7 @@ margin-bottom: 140px;
   }
 
   .gallery{
-    margin-bottom: 230px;
+    margin-bottom: 130px;
   }
   .gallery img {
     width: 150px;
@@ -190,6 +200,7 @@ transform: scale(1.1);
 
 .instegram-button {
 width: 250px;
+m
 
 }
 
@@ -200,5 +211,4 @@ width: 250px;
   display: none;
 
 }
-
-} 
+}
