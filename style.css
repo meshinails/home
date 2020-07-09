@@ -78,10 +78,6 @@ border-radius: 4px;
 
 }
 
-img {
-  height: 480px;
-  width: 480px;
-}
 .gallery {
 display: -moz-grid-line;
 margin: 0 auto;
